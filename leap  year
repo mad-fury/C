@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+int year;
+printf("enter a year :");
+scanf("%d",&year);
+int leap=0;
+if((year%400==0||((yer%4==0)&&((year%100!=0)))
+{
+leap=1;
+printf("%d is s leap year.the next anniversary is %d\n",year,year+4);
+}
+else
+{
+printf("%d is not a leap year,the previous anniversary is%d.\n",year,year-4);
+}
+return 0;
+)
